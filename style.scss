@@ -1,0 +1,44 @@
+@import "../bootstrap-5.1.1/bootstrap-5.1.1/scss/bootstrap.scss";
+@import "variables";
+
+@import "addreSS";
+@import "anotherGoogs";
+@import "copyright";
+@import "feature";
+@import "feturedIt";
+@import "footer";
+@import "header";
+@import "prodactPage";
+@import "prodactPageBackground";
+@import "productDescription";
+@import "promo";
+@import "shoppingCard";
+@import "singlePage";
+@import "shippingAddress";
+@import "subscribe";
+@import "topOffers";
+
+
+@import "../styles/bem/beadcrumb";
+@import "../styles/bem/cart";
+@import "../styles/bem/logo";
+@import "../styles/bem/searchForm";
+@import "../styles/bem/topNav";
+
+
+
+
+.body {
+  margin: 0;
+  font-family: $mainFontFamily;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+
+  @media (max-width: 745px) {
+    width: auto;
+    margin: auto;
+  }
+}
